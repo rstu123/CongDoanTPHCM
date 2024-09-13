@@ -1,0 +1,50 @@
+/* .scrollbars ul {
+  max-height: 180px;
+  overflow: hidden;
+  overflow: auto;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+  cursor: pointer;
+}
+
+.scrollbars ul::-webkit-scrollbar {
+  width: 0 !important;
+  display: none;
+} */
+@keyframes color-change {
+  0% { color: white; }
+  33% { color: yellow; }
+  66% { color: orange; }
+  100% { color: white; }
+}
+
+/* Dropdown styles */
+
+/* Remove margin/padding between items */
+.no-gap {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove gaps between items */
+.no-gap > div,
+.no-gap .dropdown-item {
+  padding: 0;
+}
+
+/* Make the dropdown items rectangular */
+.rectangular-item .dropdown-item,
+.rectangular-item button {
+  border-radius: 0; /* Remove rounded corners */
+}
+
+/* Prevent gaps causing accidental mouse leave */
+.no-gap-menu {
+  display: block;
+  position: relative;
+}
+
+/* Ensure the dropdown itself has no rounded corners */
+.no-rounded {
+  border-radius: 0 !important;
+}
